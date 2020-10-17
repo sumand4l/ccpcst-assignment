@@ -60,7 +60,8 @@ void main()
     int side1, side2, side3; 
 
     //Initially assume that the triangle is not valid  
-    int valid = 0;
+    //here valid works as flag variable
+    int valid = 0; 
   
     //Input all three sides of a triangle    
 
