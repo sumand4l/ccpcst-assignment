@@ -14,16 +14,21 @@ main(){
         else
             printf("%d is largest\n",num3);
     }
-    else
-        printf("%d is largest\n",num2); //else cond. of 1st & 2nd  
+    else{    //if 2nd is > 1st
+        if(num2>num3) //checking btwn 2nd & 3rd
+            printf("%d is largest\n",num2);  
+        else
+            printf("%d is largest\n",num3);
+    }
 }
 
 /*
 //Using logical operator---->
-    if(num1>num2 && num1>num2) //if(num1>num2&&num1>num3 || num2>num1&&num2>num3 || num3>num1&&num3>num2)
+    if(num1>num2 && num1>num3) /*if(num1>num2&&num1>num3 || num2>num1&&num2>num3 || num3>num1&&num3>num2)*/
         printf("%d is largest",num1);
-    else if(num2>num1 && num2>num1)
+    else if(num2>num1 && num2>num3)
         printf("%d is largest",num2);
-    else if(num3>num1 && num3>num2)
+    else  
         printf("%d is largest",num3);
 */
+
