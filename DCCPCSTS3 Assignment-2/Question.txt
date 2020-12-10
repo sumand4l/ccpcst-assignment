@@ -1,5 +1,5 @@
-C Programming : Assignment 02 : Last Date of submission: 10/08/2020
-submit your assignment at :  samaxxxx.xxxxa@gmail.com
+C Programming : Assignment 02 :  
+ 
 ------------------------------------------------------------------------
 1. Write a C program to find maximum between two numbers.
 2. Write a C program to find maximum between three numbers.
