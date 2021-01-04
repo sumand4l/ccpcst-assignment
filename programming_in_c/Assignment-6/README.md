@@ -1,8 +1,6 @@
 # Assignment 06 : Strings in C  
 
-## Last Date of submission: 24/12/2020
-
-### Write the following programs without using string.h header file.
+## Write the following programs without using string.h header file.
 
 1. Write a C program to find length of a string.
 2. Write a C program to copy one string to another string.
