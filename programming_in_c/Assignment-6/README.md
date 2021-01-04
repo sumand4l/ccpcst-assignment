@@ -1,5 +1,5 @@
 # Assignment 06 : Strings in C  
-==================
+
 ## Last Date of submission: 24/12/2020
 
 ### Write the following programs without using string.h header file.
