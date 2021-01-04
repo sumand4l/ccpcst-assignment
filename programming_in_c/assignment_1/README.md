@@ -1,4 +1,4 @@
-## Assignmet-1
+## Assignment-1
 
 1.1	Write a C program to perform input/output of all basic data types.
 
