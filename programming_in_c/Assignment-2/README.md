@@ -1,4 +1,4 @@
-C Programming : Assignment 02 :  
+## C Programming : Assignment 02 :  
  
 ------------------------------------------------------------------------
 1. Write a C program to find maximum between two numbers.
