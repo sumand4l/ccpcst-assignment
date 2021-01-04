@@ -20,5 +20,5 @@ This repo currently contains source codes for following subjects and topics:
   6. [x] [Strings in C](programming_in_c/Assignment-6)
 
 - Thanks to these amazing people
-    1. [Asim Bera](https://github.com/asimbera/)
+    1. Readme provided by [Asim Bera](https://github.com/asimbera/)
     2. [Arnab Das](https://github.com/Arnab-lit)
