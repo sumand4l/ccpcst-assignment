@@ -21,4 +21,4 @@ This repo currently contains source codes for following subjects and topics:
 
 - Thanks to these amazing people
     1. Readme provided by [Asim Bera](https://github.com/asimbera/)
-    2. [Arnab Das](https://github.com/Arnab-lit)
+    2. Quesions provided by [Arnab Das](https://github.com/Arnab-lit)
