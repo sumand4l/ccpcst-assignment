@@ -12,12 +12,12 @@ This repo currently contains source codes for following subjects and topics:
 ## Table of Contents
 
 - [Programming in C](programming_in_c)
-  1. [x] [Basics I/O](programming_in_c/Assignment-1)
-  2. [x] [If-Else](programming_in_c/Assignment-2)
-  3. [x] [Bitwise, Switch, Loops](programming_in_c/Assignment-3)
-  4. [x] [Array](programming_in_c/Assignment-4)
-  5. [x] [Function & Recursion](programming_in_c/Assignment-5)
-  6. [x] [Strings in C](programming_in_c/Assignment-6)
+  1. [x] [Basics I/O](programming_in_c/assignment_1)
+  2. [x] [If-Else](programming_in_c/assignment_2)
+  3. [x] [Bitwise, Switch, Loops](programming_in_c/assignment_3)
+  4. [x] [Array](programming_in_c/assignment_4)
+  5. [x] [Function & Recursion](programming_in_c/assignment_5)
+  6. [x] [Strings in C](programming_in_c/assignment_6)
 
 - Thanks to these amazing people
     1. Readme provided by [Asim Bera](https://github.com/asimbera/)
