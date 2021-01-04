@@ -11,11 +11,11 @@ This repo currently contains source codes for following subjects and topics:
 
 ## Table of Contents
 
-- [Programming in C](c_lang)
-  1. [x] [Basics I/O](c_lang/assignment_01)
-  2. [x] [If-Else](c_lang/assignment_02)
-  3. [ ] [Bitwise, Switch, Loops](c_lang/assignment_03)
-  4. [x] [Array](c_lang/assignment_04)
-  5. [x] [Function & Recursion](c_lang/assignment_05)
-  6. [x] [Strings in C](c_lang/assignment_06)
-- [Data Structure](data_structure)
+- [Programming in C](programming_in_c)
+  1. [x] [Basics I/O](programming_in_c/Assignment-1)
+  2. [x] [If-Else](programming_in_c/Assignment-2)
+  3. [x] [Bitwise, Switch, Loops](programming_in_c/Assignment-3)
+  4. [x] [Array](programming_in_c/Assignment-4)
+  5. [x] [Function & Recursion](programming_in_c/Assignment-5)
+  6. [x] [Strings in C](programming_in_c/Assignment-6)
+
