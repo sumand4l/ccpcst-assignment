@@ -19,11 +19,11 @@ This repo currently contains source codes for following subjects and topics:
   5. [x] [Function & Recursion](programming_in_c/assignment_5)
   6. [x] [Strings in C](programming_in_c/assignment_6)
 - [Data Structure](data_structure)
-  1. [] [Array]
-  2. [] [Stack]
-  3. [] [Queue]
-  4. [] [Sorting]
-  5. [] [Searching]
+  [] [Array]
+  [] [Stack]
+  [] [Queue]
+  [] [Sorting]
+  [] [Searching]
 
 - Thanks to these amazing people
     1. Readme provided by [Asim Bera](https://github.com/asimbera/)
