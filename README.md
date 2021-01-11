@@ -4,7 +4,6 @@
 <p><a href="https://en.wikipedia.org/wiki/Central_Calcutta_Polytechnic">
 <img src="https://upload.wikimedia.org/wikipedia/en/c/c1/Central_Calcutta_Polytechnic.png" alt="Central Calcutta Polytechnic" width="150" height="150">
 </a></p>
-
 By <span title="must have been published or publicly displayed outside Wikipedia">Source</span> (<a href="//en.wikipedia.org/wiki/Wikipedia:Non-free_content_criteria#4" title="Wikipedia:Non-free content criteria">WP:NFCC#4</a>), <a href="//en.wikipedia.org/wiki/File:Central_Calcutta_Polytechnic.png" title="Fair use of copyrighted material in the context of Central Calcutta Polytechnic">Fair use</a>, <a href="https://en.wikipedia.org/w/index.php?curid=44025058">Link</a>
 </center>
 
@@ -30,3 +29,4 @@ This repo currently contains source codes for following subjects and topics:
 - Thanks to these amazing people
     1. Readme provided by [Asim Bera](https://github.com/asimbera/)
     2. Questions arranged by [Arnab Das](https://github.com/Arnab-lit)
+
