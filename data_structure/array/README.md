@@ -19,6 +19,7 @@
 - Q14. Write a C Program to multiply of Two Dimensional Arrays
 - Q15. Write a C Program to Insert an Element in a Specified Position in a given Array
 - Q16. Write a C Program to Delete the Specified number from an Array
+- Q17. Write a C Program to Delete the Specified number from an Array
 
 
 
