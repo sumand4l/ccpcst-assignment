@@ -21,6 +21,9 @@ This repo currently contains source codes for following subjects and topics:
   4. [x] [Array](programming_in_c/assignment_4)
   5. [x] [Function & Recursion](programming_in_c/assignment_5)
   6. [x] [Strings in C](programming_in_c/assignment_6)
+  7. [x] [Pointers](programming_in_c/assignment_7)
+  8. [x] [Structure](programming_in_c/assignment_8)
+  9. [x] [Pattern Printing](programming_in_c/assignment_9)
 - [Data Structure](data_structure)
 
   1. [ ] [Array](data_structure/array)
