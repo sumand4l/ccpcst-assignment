@@ -15,6 +15,7 @@ This repo currently contains source codes for following subjects and topics:
 ## Table of Contents
 
 - [Programming in C](programming_in_c)
+  
   1. [x] [Basics I/O](programming_in_c/assignment_1)
   2. [x] [If-Else](programming_in_c/assignment_2)
   3. [x] [Bitwise, Switch, Loops](programming_in_c/assignment_3)
@@ -24,14 +25,13 @@ This repo currently contains source codes for following subjects and topics:
   7. [x] [Pointers](programming_in_c/assignment_7)
   8. [x] [Structure](programming_in_c/assignment_8)
   9. [x] [Pattern Printing](programming_in_c/assignment_9)
+
 - [Data Structure](data_structure)
 
-  1. [ ] [Array](data_structure/array)
-  2. [ ] [Stack](data_structure/stack)
-  3. [ ] [Queue](data_structure/queue)
-  4. [ ] [Sorting](data_structure/sorting)
-  5. [ ] [Searching](data_structure/searching)
-
+  1. [x] [Array](data_structure/array/)
+  2. [x] [Stack](data_structure/stack/)
+  3. [x] [Queue](data_structure/queue/)
+  
 - Thanks to these amazing people
   1. Readme provided by [Asim Bera](https://github.com/asimbera/)
   2. Questions arranged by [Arnab Das](https://github.com/Arnab-lit)
