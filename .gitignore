@@ -1,2 +1,2 @@
-object_oriented_programming/*.out
-object_oriented_programming/test.cpp
+./object_oriented_programming/Assignment-1/*.out
+./object_oriented_programming/Assignment-1/test.cpp
