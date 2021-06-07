@@ -15,7 +15,7 @@
 - Q11. [Write a C Program to Sort the Array in Descending Order](array/Q11.c)
 - Q12. [Write a C Program to Sort Names in an Alphabetical Order](array/Q12.c)
 - Q13. [Write a C Program to Sum of two One-Dimensional Arrays](array/Q13.c)
-- Q14. [Write a C Program to Sum of Two Dimensional Arrays](array/Q14.c)
+- Q14. [Write a C Program to Sum of Two 2-Dimensional Arrays](array/Q14.c)
 - Q15. [Write a C Program to multiply of Two Dimensional Arrays](array/Q15.c)
 - Q16. [Write a C Program to Insert an Element in a Specified Position in a given Array](array/Q16.c)
 - Q17. [Write a C Program to Delete the Specified number from an Array](array/Q17.c)
