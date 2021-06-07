@@ -1,4 +1,4 @@
-/*Q14. Write a C Program to Sum of Two 2-Dimensional Arrays*/
+/*Q14. Write a C Program to Sum of two 3x3 Matrices*/
 
 #include <stdio.h>
 
