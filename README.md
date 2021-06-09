@@ -32,6 +32,10 @@ This repo currently contains source codes for following subjects and topics:
   2. [x] [Stack](data_structure/stack/)
   3. [x] [Queue](data_structure/queue/)
   
+- [Object Oriented Programming](object_oriented_programming)
+
+  1. [x] [Assignment-1](object_oriented_programming/Assignment-1)
+
 - Thanks to these amazing people
   1. Readme provided by [Asim Bera](https://github.com/asimbera/)
   2. Questions arranged by [Arnab Das](https://github.com/Arnab-lit)
