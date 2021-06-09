@@ -6,7 +6,7 @@
     "configurations": [
 
         {
-            "name": "g++ - Build and debug active file",
+            "name": "Debug",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}.out",
