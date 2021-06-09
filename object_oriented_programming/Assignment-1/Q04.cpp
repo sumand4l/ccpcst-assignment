@@ -8,7 +8,7 @@ int main () {
     cout << "Enter Nth term to Print the Series: " << endl;
     cin >> limit;
     cout << "Fibonacci Series is: " << a << " " << b << " "; 
-    for (int i = 0; i <= limit; i++) {
+    for (int i = 1; i <= limit-2; i++) {
         c = a + b;
         a = b;
         b = c;
@@ -17,3 +17,4 @@ int main () {
     cout << endl;
     return 0;
 }
+
