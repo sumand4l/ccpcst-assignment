@@ -35,6 +35,7 @@ This repo currently contains source codes for following subjects and topics:
 - [Object Oriented Programming](object_oriented_programming)
 
   1. [x] [Assignment-1](object_oriented_programming/Assignment-1)
+  2. [x] [Assignment-2](object_oriented_programming/Assignment-2)
 
 - Thanks to these amazing people
   1. Readme provided by [Asim Bera](https://github.com/asimbera/)
