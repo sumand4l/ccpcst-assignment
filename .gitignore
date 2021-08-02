@@ -1,2 +1,3 @@
+# Files to be omitted
 *.out
 test.cpp
