@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch Q02",
+            "request": "launch",
+            "mainClass": "java.Q02",
+            "projectName": "ccpcst-assignment_4dc86afc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q01",
+            "request": "launch",
+            "mainClass": "java.Q01",
+            "projectName": "ccpcst-assignment_4dc86afc"
+        },
+        {
             "name": "Debug",
             "type": "cppdbg",
             "request": "launch",
