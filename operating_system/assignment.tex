@@ -1,0 +1,154 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+% document settings start
+\newenvironment{problem}{\begin{enumerate}[label=\bfseries\alph*.]\large\bfseries}{\end{enumerate}}
+\newenvironment{answered}{\par\normalfont}{}
+
+
+\geometry{a4paper, margin=0.9in}
+\graphicspath{{./outputs/}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Operating System}
+\rhead{Suman Mondal}
+% \lfoot{\href{https://github.com/thatsuman/ccpcst-assignments.git}{View on Github}}
+\rfoot{Page \thepage}
+
+% \urlstyle{same}
+
+\input{./macro}
+% document settings end
+
+\begin{document}
+\input{./cover}
+
+% \newpage
+% \tableofcontents
+% \newpage
+
+\section{Operating System Assignment}
+
+\noindent
+\begin{problem}
+   \item Describe the Architecture of UINX OS
+         \begin{answered}
+            The main concept that unites all the versions of Unix is the following four basics −
+            \begin{itemize}
+                \item \textbf{Kernel} − The kernel is the heart of the operating system. It interacts with the hardware and most of the tasks like memory management, task scheduling and file management.
+                
+                \item \textbf{Shell} − The shell is the utility that processes your requests. When you type in a command at your terminal, the shell interprets the command and calls the program that you want. The shell uses standard syntax for all commands. C Shell, Bourne Shell and Korn Shell are the most famous shells which are available with most of the Unix variants.
+                
+                \item \textbf{Commands and Utilities} − There are various commands and utilities which you can make use of in your day to day activities. \textbf{cp}, \textbf{mv}, \textbf{cat} and \textbf{grep}, etc. are few examples of commands and utilities. There are over 250 standard commands plus numerous others provided through 3rd party software. All the commands come along with various options.
+                
+                \item \textbf{Files and Directories} − All the data of Unix is organized into files. All files are then organized into directories. These directories are further organized into a tree-like structure called the filesystem.
+            \end{itemize}
+         \end{answered}
+
+   \item Features of UNIX OS
+         \begin{answered}
+
+            Unix is an operating system, so it has all the features that the OS must-have. UNIX also looks at a few things in a different way than other OS. Features of UNIX are listed below :
+            \begin{itemize}
+                \item \textbf{Multiuser System} : In UNIX, resources are actually shared between all the users, so-called a multi-user system. For doing so, computer give a time slice (breaking unit of time into several segments ) to each user. So, at any instant of time, only one user is served but the switching is so fast that it gives an illusion that all the users are served simultaneously. 
+
+                \item \textbf{The Building-Block Approach} : The Unix developers thought about keeping small commands for every kind of work. So Unix has so many commands, each of which performs one simple job only. You can use 2 commands by using pipes (‘|’).
+
+                \item \textbf{The UNIX Toolkit} : Unix has a kernel but the kernel alone can’t do much that could help the user. So, we need to use the host of applications that usually come along with the UNIX systems. The applications are quite diversified.
+
+                \item \textbf{Pattern Matching} : Unix provides very sophisticated pattern matching features. The meta-char ‘*’ is a special character used by the system to match a number of file names. There are several other meta-char in UNIX.
+                
+                \item \textbf{Programming Facility} : Unix provides shell which is also a programming language designed for programmers, not for casual end-users. It has all the control structures, loops, and variables required for programming purposes. These features are used to design the shell scripts (programs that can invoke the UNIX commands).
+
+                Many functions of the system can be controlled and managed by these shell scripts.
+            \end{itemize}
+            
+         \end{answered}
+    
+    \item Difference between UNIX, WINDOWS and DOS
+         \begin{answered}
+            \begin{itemize}
+                \item UNIX 
+                    \begin{enumerate}\normalfont{
+                        \item Supports both CLI/GUI
+                        \item Supports Multitasking
+                        \item Unix can be installed on a wide variety of computer hardware, mobile phones and video game consoles to mainframes and supercomputers
+                        \item Very reliable and is known for being run for months or even years without needing to be rebooted
+                        \item Difficult to manage}
+                    \end{enumerate}
+                \item WINDOWS
+                    \begin{enumerate}\normalfont{
+                        \item Supports GUI 
+                        \item Supports Multitasking
+                        \item Windows can be installed on PC desktops, laptops, servers, and some mobile phones
+                        \item Windows is not even reliable, with it crashing/needing to be restarted all the time
+                        \item Easy to manage}
+                    \end{enumerate}
+                \item DOS
+                    \begin{enumerate}\normalfont{
+                        \item Supports a Text-Based/CLI
+                        \item DOS is unable to run multiple processes at the same time
+                        \item DOS can be installed on standalone PC desktops or laptops
+                        \item DOS is not very reliable because easily if a prgram doesn't open properly or a wrong command is issued.
+                        \item DOS is not very easy to manage}
+                    \end{enumerate}
+            \end{itemize}
+        \end{answered}
+    
+    \item {Explain the booting process of an operating system}
+        \begin{answered}
+            When our computer is switched on, it can be started by hardware such as a button press, or by software command, a computer's central processing unit (CPU) has no software in its main memory, there is some process which must load software into main memory before it can be executed. Below are the six steps to describe the boot process in the operating system, such as:
+            \begin{itemize}
+                \item \textbf{Step 1} : Once the computer system is turned on, BIOS (Basic Input /Output System) performs a series of activities or functionality tests on programs stored in ROM, called on POST (Power-on Self Test) that checks to see whether peripherals in the system are in perfect order or not.
+
+                \item \textbf{Step 2} : After the BIOS is done with pre-boot activities or functionality test, it read bootable sequence from CMOS (Common Metal Oxide Semiconductor) and looks for master boot record in the first physical sector of the bootable disk as per boot device sequence specified in CMOS. For example, if the boot device sequence is:
+
+                \item \textbf{Step 3} : The master boot record will search first in a floppy disk drive. If not found, then the hard disk drive will search for the master boot record. But if the master boot record is not even present on the hard disk, then the CDROM drive will search. If the system cannot read the master boot record from any of these sources, ROM displays "No Boot device found" and halted the system. On finding the master boot record from a particular bootable disk drive, the operating system loader, also called Bootstrap loader, is loaded from the boot sector of that bootable drive into memory. A bootstrap loader is a special program that is present in the boot sector of a bootable drive.
+
+                \item \textbf{Step 4} : The bootstrap loader first loads the IO.SYS file. After this, MSDOS.SYS file is loaded, which is the core file of the DOS operating system.
+
+                \item \textbf{Step 5} : After this, MSDOS.SYS file searches to find Command Interpreter in CONFIG.SYS file, and when it finds, it loads into memory. If no Command Interpreter is specified in the CONFIG.SYS file, the COMMAND.COM file is loaded as the default Command Interpreter of the DOS operating system.
+
+                \item \textbf{Step 6} : The last file is to be loaded and executed is the AUTOEXEC.BAT file that contains a sequence of DOS commands. After this, the prompt is displayed. We can see the drive letter of bootable drive displayed on the computer system, which indicates that the operating system has been successfully on the system from that drive.
+            \end{itemize}
+            
+        \end{answered}
+    
+    \item{Use different command and also write the output in Unix :
+    ls, rm, mv, cp, cat, comm, chmod, mkdir, rmdir, cd, pwd, cmp, sort, grep, who am i,
+    date, time, cal, clear, man, join, split, head, tail, diff}
+
+        \lincom{01}{ls - show content of the directory}
+        \lincom{02}{rm - to remove file}
+        \lincom{03}{mv - move content to another location}
+        \lincom{04}{cp - copy content(s) to another location}
+        \lincom{05}{cat - display the content of the file}
+        \lincom{06}{comm - compares two sorted files line by line}
+        \lincom{07}{chmod - to change the access permissions of files and directories}
+        \lincom{08}{mkdir - make directory}
+        \lincom{09}{rmdir - remove directory}
+        \lincom{10}{cd - change directory path}
+        \lincom{11}{pwd - print the working directory}
+        \lincom{12}{cmp -  compare to files}
+        \lincom{13}{sort - sorts the file content in an alphabetical order}
+        \lincom{14}{grep - filters the content of a file which makes our search easy}
+        \lincom{15}{whoami - shows current user when this command will be invoked}
+        \lincom{16}{date - shows current date}
+        \lincom{17}{time - displays how long it takes to execute a command}
+        \lincom{18}{cal - shows current month's calender with current day highlighted}
+        \lincom{19}{man - shows the manual page of command}
+        \lincom{20}{split - split larger files into smaller files}
+        \lincom{21}{head - displays the starting content of a file. By default, it displays starting 10 lines of any file}
+        \lincom{22}{diff - display the differences in the files by comparing the files line by line}
+
+
+\end{problem}
+
+\end{document}
+
