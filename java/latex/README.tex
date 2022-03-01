@@ -38,11 +38,11 @@ urlcolor=blue,
 % macros start here
 \newcommand{\problem}[3]{
   \section{#3}
-    \underline{{\Large Source Code :}}
-    \inputminted[breaklines,fontsize=\large]{java}{#1.java}
+    \underline{{\LARGE Source Code :}}
+    \inputminted[breaklines,fontsize=\Large]{java}{#1.java}
     \bigbreak
     \noindent
-    \underline{{\Large Program Output :}}
+    \underline{{\LARGE Program Output :}}
     \bigbreak
     \noindent
     \includegraphics[height=2.1in]{#2}
@@ -68,7 +68,8 @@ urlcolor=blue,
 \input{./cover}
 \pagenumbering{roman}
 \newpage
-\tableofcontents
+\large{\tableofcontents}
+% \tableofcontents
 \clearpage
 \pagenumbering{arabic}
 
