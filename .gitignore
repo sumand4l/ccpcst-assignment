@@ -1,7 +1,7 @@
 # Files to be omitted
 *.out
 test.cpp
-./multimedia/outputs/*
+./multimedia/outputs/
 
 # Compiled class file
 *.class
