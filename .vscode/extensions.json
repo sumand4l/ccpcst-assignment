@@ -1,3 +1,6 @@
 {
-    "recommendations": []
+  "recommendations": [
+    "james-yu.latex-workshop",
+    "DavidAnson.vscode-markdownlint"
+  ]
 }
