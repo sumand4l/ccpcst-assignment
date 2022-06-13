@@ -7,8 +7,8 @@ f(x):   9.75    12.75   15.70   19.52   23.75
 */
 
 #include <stdio.h>
-int		fact(int);
-void	main(void)
+int	fact(int);
+void main()
 {
 	int n, i, j, ch = 30;
 	float arr[10][11], px = 1, x, y, p, h;
@@ -27,10 +27,9 @@ void	main(void)
 		for (i = 0; i < n - 1; i++)
 			arr[i][j] = arr[i + 1][j - 1] - arr[i][j - 1];
 	}
-	printf("\nThe difference table");
-	printf("\n\tX \tY");
-	for (i = 0; i < n - 1; i++)
-		printf("\t%c^%d", ch, i + 1);
+  	printf("\n_____________________________________________________\n");
+	printf("\n\t  x\t    y\t    y1\t    y2\t    y3\t    y4");
+	printf("\n_____________________________________________________\n");
 	for (i = 0; i < n; i++)
 	{
 		printf("\n");
@@ -57,3 +56,5 @@ int	fact(int n)
 		f = f * i;
 	return (f);
 }
+	
+

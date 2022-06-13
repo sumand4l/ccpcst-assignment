@@ -7,7 +7,7 @@ f(x):   8.85    11.45   20.66   22.85   38.60
 
 #include <math.h>
 #include <stdio.h>
-int	main(void)
+int	main()
 {
 	float x[10], y[10][10], sum, p, u, temp;
 	int i, n, j, k = 0, f, m;
