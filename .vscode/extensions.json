@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "james-yu.latex-workshop",
-    "DavidAnson.vscode-markdownlint"
+    "davidanson.vscode-markdownlint",
+    "keyhr.42-c-format"
   ]
 }
