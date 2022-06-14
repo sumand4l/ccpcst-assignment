@@ -9,9 +9,9 @@
 By <a href="//en.wikipedia.org/wiki/File:Central_Calcutta_Polytechnic.png" title="Fair use of copyrighted material in the context of Central Calcutta Polytechnic">Fair use</a>, <a href="http://polytechnic.wbtetsd.gov.in/centralcalpoly">Link</a>
 </p>
 
-This is a archive of assignments with solutions of Central Calcutta Polytechnic - Computer Science & Technology Branch of batch 2019-2022.
+This is a archive of assignments with solutions of Central Calcutta Polytechnic - Computer Science & Technology Branch of batch 2019-2022. This repo is meant to be a learning source for future students and programming enthusiasts. Subjects are separated like our Semester wise programs and each subject consists assignments.
 
-## Table of Contents
+## Contents
 
 - Third Semester
 
@@ -56,6 +56,54 @@ This is a archive of assignments with solutions of Central Calcutta Polytechnic 
 - Sixth Semester
   - [Compiler Design (C)](Compiler_Design)
   - [Numerical Methods](Numerical_Methods)
+
+## ⚙ Installation and Run
+
+- For C/C++
+  - If you're Windows user you can use [Dev-C++](https://sourceforge.net/projects/orwelldevcpp/) or any other C/C++ Compilers out there.
+  - And If you're Linux fanboy there is legendary [GCC](https://gcc.gnu.org/) compiler which comes pre-installed with pretty much every Linux distro.
+    - Compile and Run
+      ```
+      $ gcc -o file_name file_name.c //for C
+      $ ./file_name
+      $ g++ -o file_name file_name.cpp // for C++
+      $ ./file_name
+      ```
+- For Java
+  - **Windows**: For Java installation my suggestion will be [Azul's Zulu JDKs](https://www.azul.com/downloads/?package=jdk)
+  - **Linux**: [OpenJDK](https://openjdk.org/install/) is there
+    - Compile and Run
+      ```
+        $ javac file_name.java
+        $ java file_name
+      ```
+- For LaTeX (Optional)
+
+  - Since I used Latex to prepare assignment documentation, I'm adding this section too.
+
+    So, What is LaTex basically ?
+
+    - LaTex is a document preparation system for high-quality typesetting. It is most often used for medium-to-large technical or scientific documents but it can be used for almost any form of publishing like thesis, report, article, balance sheet etc.
+
+  - **Windows**: [Click here](https://www.latexbuch.de/install-latex-windows/) for installation guide
+
+  - **Linux**: In various Linux distribution `texlive` is a very popular Latex package.
+    - For Ubuntu users simply install
+      ```
+      sudo apt install texlive-latex-extra
+      ```
+    - Compilation: This command will compile your `.tex` file to `.pdf` docs
+      ```
+       pdflatex file_name.tex
+      ```
+    - You may use Latex editor like TeXstudio - [Click here](https://linuxhint.com/install-texstudio-latex-editor-linux/)
+
+  :bulb: [Learn more](https://www.learnlatex.org/en/) for LaTex tutorial
+
+## ✨ Feedback
+
+If you find any kind of bug, error or typos, then fell free to create an issue or make a pull request. Happy Coding 😊
+
 - Thanks to these amazing people
-  1. Readme provided by [Asim Bera](https://github.com/asimbera/)
+  1. Latex template provided by [Asim Bera](https://github.com/asimbera/)
   2. Questions arranged by [Arnab Das](https://github.com/Arnab-lit)
