@@ -1,0 +1,93 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+
+% **********************************************************
+% Document Settings                                        *
+% **********************************************************
+\usepackage{geometry}
+\geometry{a4paper, margin=0.6in}
+
+\usepackage{graphicx}
+\graphicspath{{../outputs/}}
+
+\usepackage{minted}
+% \usemintedstyle{emacs}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Compiler Design}
+\rhead{Suman Mondal}
+% \lfoot{\href{https://github.com/thatsuman/ccpcst-assignment.git}{View on Github}}
+\lfoot{\href{https://github.com/thatsuman}{github.com/thatsuman}}
+\rfoot{Page \thepage}
+
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+linkcolor=blue,
+filecolor=magenta,
+urlcolor=blue,
+}
+\urlstyle{same}
+
+\usepackage{fontspec}
+% \setromanfont{Source Sans Pro}
+% \setmonofont{Cascadia Code PL}
+
+
+% macros start here
+\newcommand{\problem}[3]{
+  \section{#3}
+    \underline{{\LARGE Source Code :}}
+    \inputminted[breaklines,fontsize=\Large]{c}{#1.c}
+    \bigbreak
+    \noindent
+    \underline{{\LARGE Program Output :}}
+    \bigbreak
+    \noindent
+    \includegraphics[width=110mm,scale=0.5]{#2}
+% \newpage
+}
+\newcommand{\subproblem}[3]{
+  \subsection{#3}
+    \underline{\emph{\Large Source Code :}}
+    \inputminted[breaklines]{c}{#1.c}
+    \bigbreak
+    \noindent
+    \underline{\emph{\Large Program Output :}}
+    \bigbreak
+    \noindent
+    \includegraphics{#2}
+% \newpage
+}
+% macros end here
+
+% **********************************************************
+
+\begin{document}
+\input{./cover}
+\pagenumbering{roman}
+\newpage
+\large{\tableofcontents}
+% \tableofcontents
+\clearpage
+\pagenumbering{arabic}
+
+\chapter{SPCD Assignment-2}
+\problem{../codes/Q01}{Q01}{Implement Radix sort using C language}
+\problem{../codes/Q02}{Q02}{C Program to write text in a file}
+\problem{../codes/Q03}{Q03}{C program to read a file and display file contents }
+\problem{../codes/Q04}{Q04}{C Program to count number of characters in a text file}
+\problem{../codes/Q05}{Q05}{C Program to Count Number of words in a text file}
+\problem{../codes/Q06}{Q06}{C Program to count number of lines in a text file}
+\problem{../codes/Q07}{Q07}{C Program to copy contents of one file to another file}
+
+\section{Write an algorithm to implement Lexical Analyzer}
+\bigbreak
+\underline{\emph{\Large Algorithm :}}
+\inputminted[breaklines]{c}{../codes/Q08.c}
+\bigbreak
+
+\end{document}
+
